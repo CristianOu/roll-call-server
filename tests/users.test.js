@@ -156,7 +156,7 @@ describe('test calculateClassAttendanceBetweenDates()', () => {
       'Valid lower boundaries',
       // Arrange
       [
-        { ...record1, classStartDate: new Date('2022-03-21T08:45:15'), isAttending: 1 },
+        { ...record1, classStartDate: new Date('2022-03-21T08:45:15'), isAttending: 0 },
         { ...record2, classStartDate: new Date('2022-03-21T08:45:15'), isAttending: 0 },
         { ...record3, classStartDate: new Date('2022-03-21T08:45:16'), isAttending: 1 }
       ],
